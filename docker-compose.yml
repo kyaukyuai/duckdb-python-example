@@ -1,0 +1,7 @@
+version: '3'
+services:
+  duckdb-python:
+    build: .
+    volumes:
+      - .:/app
+    command: python simple.py

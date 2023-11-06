@@ -1,0 +1,13 @@
+<users>
+    <user id="1" name="Alice">
+        <orders>
+            <order item="Book" amount="3"/>
+            <order item="Pen" amount="10"/>
+        </orders>
+    </user>
+    <user id="2" name="Bob">
+        <orders>
+            <order item="Bottle" amount="1"/>
+        </orders>
+    </user>
+</users>
