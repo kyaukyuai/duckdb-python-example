@@ -7,7 +7,8 @@ con.execute("CREATE TABLE orders AS SELECT * FROM read_csv_auto('./data/e-commer
 con.execute("CREATE TABLE products AS SELECT * FROM read_csv_auto('./data/e-commerce/olist_products_dataset.csv')")
 
 result = con.execute("""
-    SELECT
+    COPY 
+    ( SELECT
         order_items.order_id,
         products.product_id,
         products.product_category_name,
@@ -16,6 +17,5 @@ result = con.execute("""
     FROM order_items 
     LEFT JOIN products ON order_items.product_id = products.product_id
     LEFT JOIN orders ON order_items.order_id = orders.order_id
-""").fetchdf()
-
-print(result)
+    ) TO 'data/generated/output.csv' (HEADER, DELIMITER ',', QUOTE '"');
+""")
