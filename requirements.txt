@@ -12,7 +12,7 @@ click==8.1.7
     # via
     #   harlequin
     #   shandy-sqlfmt
-duckdb==0.9.1
+duckdb==0.9.2
     # via
     #   -r requirements.in
     #   harlequin
