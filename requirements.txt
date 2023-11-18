@@ -63,7 +63,7 @@ textual==0.40.0
     #   harlequin
     #   textual-fastdatatable
     #   textual-textarea
-textual-fastdatatable==0.1.3
+textual-fastdatatable==0.4.0
     # via harlequin
 textual-textarea==0.7.3
     # via harlequin
