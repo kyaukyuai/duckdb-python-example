@@ -20,7 +20,7 @@ harlequin==1.2.0
     # via -r requirements.in
 idna==3.4
     # via requests
-importlib-metadata==6.8.0
+importlib-metadata==6.11.0
     # via textual
 jinja2==3.1.2
     # via shandy-sqlfmt
