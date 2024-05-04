@@ -46,7 +46,7 @@ platformdirs==3.11.0
     #   shandy-sqlfmt
 pyarrow==14.0.0
     # via textual-fastdatatable
-pygments==2.16.1
+pygments==2.18.0
     # via rich
 pyperclip==1.8.2
     # via
