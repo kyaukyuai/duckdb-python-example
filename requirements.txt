@@ -69,7 +69,7 @@ textual-textarea==0.7.3
     # via harlequin
 tqdm==4.66.1
     # via shandy-sqlfmt
-typing-extensions==4.8.0
+typing-extensions==4.12.2
     # via textual
 uc-micro-py==1.0.2
     # via linkify-it-py
