@@ -22,7 +22,7 @@ idna==3.4
     # via requests
 importlib-metadata==6.8.0
     # via textual
-jinja2==3.1.2
+jinja2==3.1.4
     # via shandy-sqlfmt
 linkify-it-py==2.0.2
     # via markdown-it-py
