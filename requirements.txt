@@ -58,7 +58,7 @@ rich==13.6.0
     # via textual
 shandy-sqlfmt==0.21.0
     # via harlequin
-textual==0.40.0
+textual==0.84.0
     # via
     #   harlequin
     #   textual-fastdatatable
